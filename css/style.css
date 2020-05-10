@@ -1,0 +1,60 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+
+html, body {
+  background: url(../images/bg_1.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow-y: hidden;
+  color: #fff;
+}
+
+
+.cover-container {
+  width: 100%;
+  text-align: center;
+  background: transparent linear-gradient(0deg, #000000 0%, #020202F7 48%, #54545400 100%) 0% 0% no-repeat padding-box;
+  mix-blend-mode: multiply;
+  opacity: 0.7;
+}
+
+.cover-container h1 {
+  opacity: 1!important;
+  font-size: 4rem;
+}
+
+
+/*
+ * Cover
+ */
+.cover {
+  padding: 0 1.5rem;
+}
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
